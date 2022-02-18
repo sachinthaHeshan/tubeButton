@@ -1,0 +1,19 @@
+{
+  "name": "TubeButton",
+  "description": "Youtube download button.",
+  "version": "1.0",
+  "manifest_version": 3,
+  "icons": {
+    "16": "/images/icons8-youtube-16.png",
+    "48": "/images/icons8-youtube-48.png",
+    "128": "/images/icons8-youtube-128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/*"],
+      "run_at": "document_idle",
+      "css":["main.css"],
+      "js": ["scripts/addButton.js"]
+    }
+  ]
+}

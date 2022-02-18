@@ -1,0 +1,13 @@
+.ytd-grid-video-renderer{
+    background-color: indigo;
+}
+
+.tube-download-btn{
+    background-color: #009700;
+    color: white;
+    border-radius: 4px;
+    padding: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+}

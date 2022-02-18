@@ -1,0 +1,1 @@
+setTimeout(()=>{document.querySelector('.ytd-video-primary-info-renderer').insertAdjacentHTML("afterend", `<a class='tube-download-btn' target="_blank" href='${window.location.href.replace('https://www.youtube.com/','https://www.youtubepp.com/')}' >Download</a>`)},4000)
